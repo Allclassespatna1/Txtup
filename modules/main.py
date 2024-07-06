@@ -29,7 +29,7 @@ bot = Client(
     bot_token=bot_token)
 
 
-@bot.on_message(filters.command(["boos"]))
+@bot.on_message(filters.command(["txt"]))
 async def account_login(bot: Client, m: Message):
     editable = await m.reply_text("HELLO I AM TXT DOWNLOADER BOT MADE BY All classespatna❤️\n\nGive /boos Command to Downlaod From a Text file.\n")
 
